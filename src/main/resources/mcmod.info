@@ -1,0 +1,16 @@
+[
+{
+  "modid": "infinitefill",
+  "name": "Infinite Fill Mod",
+  "description": "A simple mod that add a /ifill command that does exactly the same as /fill, but can fill more than 32768 blocks!",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["vova7865"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
