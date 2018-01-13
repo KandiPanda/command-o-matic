@@ -17,8 +17,7 @@ public class Main
     
     @EventHandler
     public void serverStarting(FMLServerStartingEvent event) {
-    	event.registerServerCommand(new CommandInfiniteEnchant());
-    	event.registerServerCommand(new CommandInfiniteFill());
+    	CommandRegistry.overrideCommands(event);
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
