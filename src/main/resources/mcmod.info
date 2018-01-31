@@ -1,11 +1,11 @@
 [
 {
-  "modid": "infinitefill",
-  "name": "Infinite Fill Mod",
-  "description": "A simple mod that add a /ifill command that does exactly the same as /fill, but can fill more than 32768 blocks!",
-  "version": "1.0",
+  "modid": "commandomatic",
+  "name": "Command-O-Matic",
+  "description": "Overrides vanilla commands, so they can work without limits!",
+  "version": "1.3",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://minecraft.curseforge.com/projects/command-o-matic",
   "updateUrl": "",
   "authorList": ["vova7865"],
   "credits": "",

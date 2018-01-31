@@ -9,8 +9,8 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 @Mod(modid = Main.MODID, version = Main.VERSION)
 public class Main
 {
-	public static final String MODID = "infinitefill";
-    public static final String VERSION = "1.0";
+	public static final String MODID = "commandomatic";
+    public static final String VERSION = "1.3";
     
 	@Instance(MODID)
 	public static Main instance;
