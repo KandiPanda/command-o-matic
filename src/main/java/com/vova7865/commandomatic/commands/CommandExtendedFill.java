@@ -83,10 +83,9 @@ public class CommandExtendedFill extends CommandBase implements ICommand
 //            {
 //                throw new CommandException("commands.fill.tooManyBlocks", new Object[] {i, Integer.valueOf(32768)});
 //            }
-             if (blockpos2.getY() >= 0 && blockpos3.getY() < 256)
+            World world = sender.getEntityWorld();
+            if ((!world.isOutsideBuildHeight(blockpos2)) && (!world.isOutsideBuildHeight(blockpos3)))
             {
-                World world = sender.getEntityWorld();
-
                 for (int j = blockpos2.getZ(); j <= blockpos3.getZ(); j += 16)
                 {
                     for (int k = blockpos2.getX(); k <= blockpos3.getX(); k += 16)
