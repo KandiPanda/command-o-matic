@@ -81,11 +81,9 @@ public class CommandExtendedClone extends CommandBase
                     {
                         flag = true;
                     }
-
-                    if (structureboundingbox.minY >= 0 && structureboundingbox.maxY < 256 && structureboundingbox1.minY >= 0 && structureboundingbox1.maxY < 256)
+                    World world = sender.getEntityWorld();
+                    if ((!world.isOutsideBuildHeight(blockpos)) && (!world.isOutsideBuildHeight(blockpos1)) && (!world.isOutsideBuildHeight(blockpos2)) && (!world.isOutsideBuildHeight(blockpos2.add(structureboundingbox.getLength()))))
                     {
-                        World world = sender.getEntityWorld();
-
                         if (world.isAreaLoaded(structureboundingbox) && world.isAreaLoaded(structureboundingbox1))
                         {
                             boolean flag1 = false;
